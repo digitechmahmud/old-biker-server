@@ -150,7 +150,7 @@ run().catch(err => console.log(err));
 
 
 app.get('/', (req, res) => {
-    res.send("Server is running")
+    res.send("Server running")
 })
 
 app.listen(port, () => {
