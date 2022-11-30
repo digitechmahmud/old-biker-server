@@ -150,9 +150,9 @@ run().catch(err => console.log(err));
 
 
 app.get('/', (req, res) => {
-    res.send("Server is running smoothly")
+    res.send("Server is running")
 })
 
 app.listen(port, () => {
-    console.log(`Server listening from: ${port}`);
+    console.log(`Server listening: ${port}`);
 })
