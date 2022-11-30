@@ -154,5 +154,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`Server listening from ${port}`);
+    console.log(`Server listening ${port}`);
 })
